@@ -42,9 +42,9 @@ export default function Layout({ children }) {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center w-screen h-screen text-gray-800 transition duration-1000 ease-in-out dark:text-white dark:bg-blueGray-700">
+    <div className="flex flex-col items-center justify-center w-screen h-screen text-gray-900 transition duration-1000 ease-in-out dark:text-white dark:bg-blueGray-900">
       <Head>
-        <title>Mukul Travel Agency</title>
+        <title>New Mukul Travel Agency</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div
@@ -81,7 +81,7 @@ export default function Layout({ children }) {
         </motion.div>
         <motion.div layoutId="social-icons" className="flex items-center justify-center">
         <a
-            className="text-gray-400 dark:text-white hover:text-lightBlue-600 flex items-center justify-center dark:hover:text-pink-500 mr-3"
+            className="text-gray-400 dark:text-white hover:text-lightBlue-600 flex items-center justify-center flex-col text-center md:flex-row dark:hover:text-pink-500 mx-3"
             href="https://wa.me/919665494430?text=Hi,%20I'm%20interested%20in%20your%20services"
             target="_blank"
           > 
@@ -89,7 +89,7 @@ export default function Layout({ children }) {
           Send a message
           </a>
           <a
-            className="text-gray-400 dark:text-white hover:text-lightBlue-600 flex items-center justify-center dark:hover:text-pink-500 mr-3"
+            className="text-gray-400 dark:text-white hover:text-lightBlue-600 flex items-center justify-center flex-col text-center md:flex-row dark:hover:text-pink-500 mx-3"
             href="https://goo.gl/maps/CsrCA4gmaXcH8UJf9"
             target="_blank"
           > 
@@ -97,7 +97,7 @@ export default function Layout({ children }) {
           Get directions
           </a>
           <a
-            className="text-gray-400 dark:text-white hover:text-lightBlue-600 flex items-center justify-center dark:hover:text-pink- mr-3"
+            className="text-gray-400 dark:text-white hover:text-lightBlue-600 flex items-center justify-center flex-col text-center md:flex-row dark:hover:text-pink-500 mx-3"
             href="tel:9665494430"
             target="_blank"
           > 
