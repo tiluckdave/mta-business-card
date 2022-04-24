@@ -90,7 +90,7 @@ export default function Layout({ children }) {
           </a>
           <a
             className="text-gray-400 dark:text-white hover:text-lightBlue-600 flex items-center justify-center flex-col text-center md:flex-row dark:hover:text-pink-500 mx-3"
-            href="https://goo.gl/maps/CsrCA4gmaXcH8UJf9"
+            href="https://goo.gl/maps/s5KE2fUyTmJj5xmd7"
             target="_blank"
           > 
             <FontAwesomeIcon className="mx-3 text-2xl " icon={faMapMarkedAlt} />
